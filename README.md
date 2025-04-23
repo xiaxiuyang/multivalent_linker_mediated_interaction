@@ -1,24 +1,35 @@
-# multivalent_linker_mediated_interaction 
-[[Paper]](https://arxiv.org/abs/2410.23784)
+# multivalent_linker_mediated_interaction
+[![arXiv](https://img.shields.io/badge/arXiv-2410.23784-b31b1b.svg)](https://arxiv.org/abs/2410.23784)
 
-Written by Xiuyang Xia, Yuhan Peng, Ka Ki Li and Ran Ni
+Designed self-assembly of programmable colloidal atom-electron equivalents  
+*Xiuyang Xia, Yuhan Peng, Ka Ki Li, Ran Ni*  
+**Last updated:** 24 Apr 2025
 
-Last updated: 24 Apr 2025
+---
 
-This repository is for the paper **Designed self-assembly of programmable colloidal atom-electron equivalents**.
+## Overview
+This repository contains:
 
-**Abstract.** To unlock the potential for assembling complex colloidal ``molecules'', we investigate a minimal binary system of programmable colloidal atom–electron equivalents (PAE-EE), where electron equivalents (EEs) are multivalent linkers with two distinct types of single-stranded DNA (ssDNA) ends complementary to those ssDNAs on binary programmable atom equivalents (PAEs). We derive a statistical mechanical framework for calculating the effective interaction between PAEs mediated by EEs with arbitrary valency, which quantitatively agrees with simulations using explicit EEs. Our analysis reveals an anomalous dependence of PAE-PAE interactions on the EE valency, showing that EE-mediated interactions converge at the large valency limit. Moreover, we identify an optimal EE valency that maximizes the interaction difference between targeted and non-targeted binding pairs of PAEs. These findings offer design principles for targeted self-assembly in PAE-EE systems. 
+1. **`pae_ee_interaction`** – a pure-Python package that computes pairwise PAE-PAE interactions mediated by multivalent electron-equivalent (EE) linkers for *arbitrary valency*.
+2. **`cpp/`** – a C++ Monte Carlo (MC) simulator capable of many-body EE-mediated interactions, suitable for large-scale off-lattice simulations.
+3. Jupyter/command-line **examples** to reproduce all figures and key results in the paper.
 
+The code is fully open-source under the MIT license.
 
-# Instructions
+---
 
-1. Dependencies
-	- Python 3.6 (Anaconda3 Recommended)
+## Requirements
+| Component | Minimum version | Notes |
+|-----------|-----------------|-------|
+| Python    | 3.8             | Anaconda 3 recommended |
+| NumPy     | 1.23            | |
+| SciPy     | 1.10            | |
+| C++       | 17              | Tested with GCC 11/Clang 15 |
+| CMake     | 3.18            | For building the C++ simulator |
 
+---
 
-
-
-# Citation
+## Citation
 
 Please cite the following paper if you find this useful in your research:
 ```
