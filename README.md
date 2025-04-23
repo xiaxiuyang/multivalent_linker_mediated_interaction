@@ -2,7 +2,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2410.23784-b31b1b.svg)](https://arxiv.org/abs/2410.23784)
 
 Designed self-assembly of programmable colloidal atom-electron equivalents  
-*Xiuyang Xia, Yuhan Peng, Ka Ki Li, Ran Ni*  
+*Xiuyang Xia, Yuhan Peng, Ka Ki Li and Ran Ni*  
 **Last updated:** 24 Apr 2025
 
 ---
