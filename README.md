@@ -10,7 +10,7 @@ Designed self-assembly of programmable colloidal atom-electron equivalents
 ## Overview
 This repository contains:
 
-1. **`pae_ee_interaction`** – a pure-Python package that computes pairwise PAE-PAE interactions mediated by multivalent electron-equivalent (EE) linkers for *arbitrary valency*.
+1. **`pair_interaction`** – a pure-Python package that computes pairwise PAE-PAE interactions mediated by multivalent electron-equivalent (EE) linkers for *arbitrary valency*.
 2. **`cpp/`** – a C++ Monte Carlo (MC) simulator capable of many-body EE-mediated interactions, suitable for large-scale off-lattice simulations.
 3. Jupyter/command-line **examples** to reproduce all figures and key results in the paper.
 
